@@ -1,0 +1,23 @@
+body {
+  font-family: Roboto;
+  color: none;
+  background-color: none;
+  text-decoration: none;
+}
+
+h1 {
+  color: teal;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
