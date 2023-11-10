@@ -29,7 +29,7 @@ body {
   color: #4d5ae5;
 }
 
-.logo-color {
+.logotype {
   color: #2e2f42;
 }
 
@@ -70,19 +70,20 @@ body {
   color: #434455;
 }
 
+.dark {
+  background-color: #2e2f42;
+}
 .title-top {
   text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.07; /* 107.143% */
+  line-height: 1.07;
   letter-spacing: 0.02em;
-  background-color: #2e2f42;
   color: #ffffff;
 }
 
-.touch {
-  cursor: pointer;
+.button {
   background-color: #4d5ae5;
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -90,14 +91,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
 
-.touch:hover {
+.button:hover {
   background-color: #404bbf;
 }
 
-.touch:focus {
-  cursor: pointer;
+.button:focus {
   background-color: #404bbf;
 }
 
@@ -120,13 +121,16 @@ body {
 
 /* section 3 */
 
+.after-two {
+  background-color: #f4f4fd;
+}
+
 .title-top-last {
   text-align: center;
   text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  background-color: #f4f4fd;
   color: #2e2f42;
 }
 
@@ -134,9 +138,11 @@ body {
   background-color: #ffffff;
 }
 
-/* section 3 */
-
 /* footer */
+
+.end {
+  background-color: #2e2f42;
+}
 
 .logo-footer {
   font-family: Raleway, sans-serif;
@@ -145,7 +151,6 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  background-color: #2e2f42;
   color: #4d5ae5;
 }
 
