@@ -142,27 +142,29 @@ button {
   background-color: #ffffff;
 }
 
+/* section 3 */
+
 /* footer */
 
 .logo-footer {
   font-family: Raleway, sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   background-color: #2e2f42;
   color: #4d5ae5;
 }
 
 .logo-futer-color {
-  color: #f4f4fd;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1, 17; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.065em;
+  color: #f4f4fd;
 }
 
 .footer-text {
