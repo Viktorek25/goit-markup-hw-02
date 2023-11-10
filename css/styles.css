@@ -81,7 +81,7 @@ body {
   color: #ffffff;
 }
 
-.color-button {
+.touch {
   cursor: pointer;
   background-color: #4d5ae5;
   font-family: Roboto, sans-serif;
@@ -92,11 +92,11 @@ body {
   color: #ffffff;
 }
 
-.color-button:hover {
+.touch:hover {
   background-color: #404bbf;
 }
 
-.color-button:focus {
+.touch:focus {
   cursor: pointer;
   background-color: #404bbf;
 }
@@ -160,11 +160,7 @@ body {
 }
 
 .footer-text {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
