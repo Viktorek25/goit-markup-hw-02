@@ -41,14 +41,24 @@ body {
 }
 
 .menu-link {
-  color: var(--NAVY-BLUE, #2e2f42);
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0, 02em;
+  color: #2e2f42;
 }
+
+.menu-link:hover {
+  color: #404bbf;
+}
+
+.menu-link:fokus {
+  color: #404bbf;
+}
+
+/* MAIN */
 
 .menu-address {
   font-style: normal;
@@ -62,43 +72,74 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1,5; /* 150% */
-  letter-spacing: 0.32em;
+  line-height: 1, 5; /* 150% */
+  letter-spacing: 0.02em;
   color: var(--SLATE, #434455);
 }
 
 .title-h1 {
-  text-align: center
-  
+  text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
-  letter-spacing: 0,02em;
+  letter-spacing: 0.02em;
   background-color: #2e2f42;
-  color: #ffffff );
+  color: #ffffff;
 }
 
-.color-button:hover {
+.color-button {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color:#404BBF;
+  background-color: #4d5ae5;
 }
+.color-button:hover {
+  background-color: #404bbf;
+}
+
 .color-button:focus {
   cursor: pointer;
-  background-color:#404BBF;
+  background-color: #404bbf;
 }
 button {
   cursor: pointer;
 }
 
-/* main */
+/* section 2 */
 
-.title-h1 {
+.title-h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.title-h3-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* section 3 */
+
+.title-h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  background-color: #f4f4fd;
+  color: #2e2f42;
+}
+
+.list-item-team {
+  background-color: #ffffff;
 }
 
 /* footer */
@@ -115,7 +156,7 @@ button {
 }
 
 .logo-futer-color {
-  color: var(--CLOUD, #f4f4fd);
+  color: #f4f4fd;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -125,7 +166,7 @@ button {
 }
 
 .footer-text {
-  color: var(--CLOUD, #f4f4fd);
+  color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
