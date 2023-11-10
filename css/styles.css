@@ -46,7 +46,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -54,7 +54,7 @@ body {
   color: #404bbf;
 }
 
-.menu-link:fokus {
+.menu-link:focus {
   color: #404bbf;
 }
 
@@ -72,7 +72,7 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1, 5; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: var(--SLATE, #434455);
 }
@@ -90,12 +90,12 @@ body {
 
 .color-button {
   font-family: Roboto, sans-serif;
-  font-size: 16px;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
   background-color: #4d5ae5;
+  color: #ffffff;
 }
 .color-button:hover {
   background-color: #404bbf;
@@ -157,7 +157,7 @@ button {
   color: #4d5ae5;
 }
 
-.logo-futer-color {
+.logo-footer-color {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -168,11 +168,11 @@ button {
 }
 
 .footer-text {
-  color: #f4f4fd;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
