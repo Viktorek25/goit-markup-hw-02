@@ -85,7 +85,6 @@ body {
 }
 
 .my-button {
-  cursor: pointer;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -93,12 +92,10 @@ body {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
+  cursor: pointer;
 }
 
-.my-button:hover {
-  background-color: #404bbf;
-}
-
+.my-button:hover,
 .my-button:focus {
   background-color: #404bbf;
 }
@@ -166,7 +163,5 @@ body {
 }
 
 .end-p {
-  line-height: 1.5;
   color: var(--#f4f4fd);
-  letter-spacing: 0.02em;
 }
